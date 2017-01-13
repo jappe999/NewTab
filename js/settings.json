@@ -1,7 +1,7 @@
 {
   "user": {
     "name":"Jasper",
-    "background":"../img/wallpaper.png"
+    "background":"img/wallpaper.png"
   },
   "searchengines": {
     "default":"https://duckduckgo.com/?q=",
