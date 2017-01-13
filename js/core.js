@@ -14,7 +14,7 @@ $(document).ready(function() {
     var triggers = '.dropdown_title, .dropdown_list';
     $(triggers).toggleClass('triggered');
   });
-  $('.dropdown_list__item').on('click', function() {
+  $('.dropdown').on('click', '.dropdown_list__item', function() {
     $('.dropdown').attr('value', $(this).attr('value'));
     var triggers = '.dropdown_title, .dropdown_list';
     $(triggers).removeClass('triggered');
