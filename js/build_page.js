@@ -82,7 +82,7 @@ $(document).ready(function() {
   };
 
   // Get settings from the page.json file..
-  $.getJSON('/js/settings.json',{}, function(page) {
+  $.getJSON('js/settings.json',{}, function(page) {
     // Build page
     set_user(page.user);
     set_searchengines(page.searchengines);
