@@ -37,10 +37,14 @@ body {
   justify-content:center;
   font-family:'Roboto Condensed', Arial;
 }
+#search_wrapper,
+.dropdown_title {
+  border-radius:4px;
+  box-shadow: 0 2px 2px -1px #111;
+}
 .search_input,
 .search_button {
   height:100%;
-  margin-bottom:10px;
   -webkit-appearance:none;
   appearance:none;
   border:0;
@@ -54,7 +58,10 @@ body {
   font-family:'Roboto Condensed', Arial;
 }
 .search_button {
-  padding:9.5px 16px;
+  position:relative;
+  top:.5px;
+  left:-4px;
+  padding:10px 16px;
   width:74px;
   background:#DA463E;
   border-radius:0 4px 4px 0;
@@ -62,8 +69,8 @@ body {
 }
 .dropdown {
   position:relative;
+  top:.5px;
   left:10px;
-  border-radius:4px;
 }
 .dropdown_title {
   padding:10px 16px;
@@ -110,7 +117,7 @@ body {
 .t_head {
   height:48px;
   padding:1px 20px !important;
-  box-shadow: 0 2px 2px -.5px #111;
+  box-shadow: 0 3px 2px -2px #111;
   background:#DA463E !important;
   color:white;
   font-weight:bold;
@@ -134,7 +141,7 @@ body {
   width:300px;
   margin:20px;
   background:white;
-  box-shadow: 0 2px 2px -.5px #111;
+  box-shadow: 0 2px 2px -2px #111;
 }
 .t_col .list {
   margin:0;
