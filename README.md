@@ -1,6 +1,15 @@
 # NewTab
 An newtab page with a simple python response server
 
+## First setup
+Place the html folder and the server.py file in the folder _/var/www_
+Open you browsers' settings and change the default newtab page.
+### For Firefox users
+Open up _about:config_ and search for
+```
+browser.newtabpage.directory.source
+```
+
 ## Start server
 If you want the searchbar of your browser to be clean, you can run the following code in the working directory.<br/>
 You have to install Python 3 though.
@@ -10,7 +19,7 @@ sudo python3 server.py
 If you choose not to, it's no problem. All paths in the code are relative.
 
 ## How to edit the page?
-The page itself is easily edited in the [setting.json](js/settings.json) file.
+The page itself is easily edited in the [setting.json](html/js/settings.json) file.
 
 ### User object
 In here only the users' name is set and a background if that's wanted.<br/>
