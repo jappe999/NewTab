@@ -5,10 +5,9 @@ An newtab page with a simple python response server
 Place the html folder and the server.py file in the folder _/var/www_
 Open you browsers' settings and change the default newtab page.
 ### For Firefox users
-Open up _about:config_ and search for
-```
-browser.newtabpage.directory.source
-```
+Install this (addon)[https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/] and set the default page to localhost (or if you don't setup the server.py just the path to the index.html file).
+### For Chrome users
+Install this (addon)[https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna] and set the default page to localhost (or if you don't setup the server.py just the path to the index.html file).
 
 ## Start server
 If you want the searchbar of your browser to be clean, you can run the following code in the working directory.<br/>
